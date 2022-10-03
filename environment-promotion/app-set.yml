@@ -11,7 +11,7 @@ spec:
           - path: environment-promotion/envs/*
   template:
     metadata:
-      name: '{{path[0]}}'
+      name: '{{path.basename}}'
     spec:
       project: default
       source:
