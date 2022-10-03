@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: envPromotion
+  name: env-promotion-app-set
 spec:
   generators:
     - git:
